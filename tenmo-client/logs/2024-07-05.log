@@ -1,0 +1,6 @@
+2024-07-05T12:04:32.1946978 500 : [{"timestamp":"2024-07-05T16:04:32.168+00:00","status":500,"error":"Internal Server Error","message":"Invalid column name; nested exception is java.sql.SQLException: Invalid column name","path":"/1001/balance"}]
+2024-07-05T14:54:03.4140578 400 : [{"timestamp":"2024-07-05T18:54:03.395+00:00","status":400,"error":"Bad Request","message":"Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: \"users\"","path":"/users"}]
+2024-07-05T15:44:23.3424742 400 : [{"timestamp":"2024-07-05T19:44:23.320+00:00","status":400,"error":"Bad Request","message":"Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: \"users\"","path":"/users"}]
+2024-07-05T16:40:47.6683559 I/O error on POST request for "http://localhost:8080/login": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2024-07-05T16:40:56.8597938 I/O error on POST request for "http://localhost:8080/login": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2024-07-05T16:41:17.5871802 401 : [no body]
