@@ -1,0 +1,5 @@
+2024-07-04T21:24:07.3977882 404 : [{"timestamp":"2024-07-05T01:24:07.371+00:00","status":404,"error":"Not Found","message":"No message available","path":"/1001"}]
+2024-07-04T21:27:13.6494298 404 : [{"timestamp":"2024-07-05T01:27:13.629+00:00","status":404,"error":"Not Found","message":"No message available","path":"/1001"}]
+2024-07-04T21:32:41.4845194 404 : [{"timestamp":"2024-07-05T01:32:41.467+00:00","status":404,"error":"Not Found","message":"No message available","path":"/1001/balance"}]
+2024-07-04T21:39:30.7330558 404 : [{"timestamp":"2024-07-05T01:39:30.712+00:00","status":404,"error":"Not Found","message":"No message available","path":"/users"}]
+2024-07-04T21:41:47.2373753 404 : [{"timestamp":"2024-07-05T01:41:47.210+00:00","status":404,"error":"Not Found","message":"No message available","path":"/users"}]
