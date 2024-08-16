@@ -90,7 +90,7 @@ public class TransferController {
             toAccount.setBalance(toAccount.getBalance().add(transfer.getAmount()));
             accountDao.updateAccountBalance(toAccount);
 
-            transferDao.updateTransferStatus(transfer.getFromAccountId(), transferId, "approved");
+            transferDao.updateTransferStatus(transfer.getFromAccountId(), transferId, "Approved");
             return new ResponseEntity<>(HttpStatus.OK);
 
         } catch (Exception e) {

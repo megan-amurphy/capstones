@@ -16,9 +16,9 @@ public class AccountController {
         this.accountDao = accountDao;
     }
 
-    @GetMapping("/{userId}/balance")
-    public BigDecimal getBalance(@PathVariable int userId) {
-        return accountDao.getBalance(userId);
+    @GetMapping("/{accountId}/balance")
+    public BigDecimal getBalance(@PathVariable int accountId) {
+        return accountDao.getBalance(accountId);
 
     }
 

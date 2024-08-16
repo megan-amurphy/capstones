@@ -31,11 +31,11 @@ public class AccountService extends AuthenticatedApiService {
         }
         return account;
     }
-    public BigDecimal getBalance(int userId) {
+    public BigDecimal getBalance(int accountId) {
         BigDecimal balance = null;
         try {
             ResponseEntity<BigDecimal> response =
-                    restTemplate.exchange(baseUrl + userId + "/balance", HttpMethod.GET,
+                    restTemplate.exchange(baseUrl + accountId + "/balance", HttpMethod.GET,
                             makeAuthEntity(), BigDecimal.class);
             balance = response.getBody();
         } catch (RestClientResponseException | ResourceAccessException e) {

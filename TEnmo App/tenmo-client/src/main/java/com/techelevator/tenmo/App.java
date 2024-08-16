@@ -100,11 +100,11 @@ public class App {
     }
 
 	private void viewCurrentBalance() {
-        BigDecimal balance = accountService.getBalance(currentUser.getUser().getId());
-        if (balance != null) {
-            System.out.println("Current Account Balance: " + balance);
+        Account account = accountService.getAccountByUserId(currentUser.getUser().getId());
+        if (account != null) {
+            System.out.println("Current Account Balance: " + account.getBalance());
         } else {
-            System.out.println("An error occurred. Please try again later.");;
+            System.out.println("An error occurred. Please try again later.");
         }
     }
 	private void viewTransferHistory() {

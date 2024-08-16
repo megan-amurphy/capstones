@@ -1,107 +1,163 @@
 package com.techelevator.tenmo.model;
 
+import com.techelevator.tenmo.model.security.User;
+import org.springframework.http.HttpStatus;
+import org.springframework.web.server.ResponseStatusException;
+
 import java.math.BigDecimal;
+import java.util.Objects;
 
 public class Transfer {
     private int transferId;
-    private int transferTypeId;
     private String transferType;
-    private String status;
-    private int transferStatusId;
-    private int fromAccountId;
-    private int toAccountId;
+    private String transferStatus;
+    private User userFrom;
+    private User userTo;
     private BigDecimal amount;
-    private String username;
+
+    public static final String TRANSFER_TYPE_REQUEST = "Request";
+    public static final String TRANSFER_TYPE_SEND = "Send";
+    public static final String TRANSFER_STATUS_PENDING = "Pending";
+    public static final String TRANSFER_STATUS_APPROVED = "Approved";
+    public static final String TRANSFER_STATUS_REJECTED = "Rejected";
+
 
     //empty constructor, this allows flexibility if the constructor is called
     public Transfer() {
     }
 
 
-    public Transfer(int transferId, int transferTypeId, String transferType, String status,
-                    int transferStatusId, int fromAccountId, int toAccountId, BigDecimal amount) {
-        this.transferId = transferId;
-        this.transferTypeId = transferTypeId;
+    public Transfer(String transferType, User userFrom, User userTo, BigDecimal amount) {
         this.transferType = transferType;
-        this.status = status;
-        this.transferStatusId = transferStatusId;
-        this.fromAccountId = fromAccountId;
-        this.toAccountId = toAccountId;
+        this.transferStatus = getInitialStatusForTransferType(transferType);
+        this.userFrom = userFrom;
+        this.userTo = userTo;
         this.amount = amount;
+        validateTransferType();
+        validateTransferStatus();
+    }
+
+    public Transfer(int transferId, String transferType, String transferStatus, User userFrom, User userTo, BigDecimal amount) {
+        this.transferId = transferId;
+        this.transferType = transferType;
+        this.transferStatus = transferStatus;
+        this.userFrom = userFrom;
+        this.userTo = userTo;
+        this.amount = amount;
+        validateTransferType();
+        validateTransferStatus();
     }
 
     public int getTransferId() {
         return transferId;
     }
 
-    public void setTransferId(int transferId) {
-        this.transferId = transferId;
-    }
-
-    public int getTransferTypeId() {
-        return transferTypeId;
-    }
-
-    public void setTransferTypeId(int transferTypeId) {
-        this.transferTypeId = transferTypeId;
-    }
-
     public String getTransferType() {
         return transferType;
     }
 
-    public void setTransferType(String transferType) {
-        this.transferType = transferType;
+    public String getTransferStatus() {
+        return transferStatus;
     }
 
-    public String getStatus() {
-        return status;
+
+    public User getUserFrom() {
+        return userFrom;
     }
 
-    public void setStatus(String status) {
-        this.status = status;
-    }
-    public int getTransferStatusId() {
-        return transferStatusId;
-    }
 
-    public void setTransferStatusId(int transferStatusId) {
-        this.transferStatusId = transferStatusId;
-    }
-
-    public int getFromAccountId() {
-        return fromAccountId;
-    }
-
-    public void setFromAccountId(int fromAccountId) {
-        this.fromAccountId = fromAccountId;
-    }
-
-    public int getToAccountId() {
-        return toAccountId;
-    }
-
-    public void setToAccountId(int toAccountId) {
-        this.toAccountId = toAccountId;
+    public User getUserTo() {
+        return userTo;
     }
 
     public BigDecimal getAmount() {
         return amount;
     }
+    public boolean isApproved (){
+        return TRANSFER_STATUS_APPROVED.equals(this.transferStatus);
+    }
 
-    public void setAmount(BigDecimal amount) {
-        this.amount = amount;
+    public boolean isRejected (){
+        return TRANSFER_STATUS_REJECTED.equals(this.transferStatus);
+    }
+
+    public boolean isPending(){
+        return TRANSFER_STATUS_PENDING.equals(this.transferStatus);
+    }
+
+    public boolean isRequestType() {
+        return TRANSFER_TYPE_REQUEST.equals(this.transferType);
+    }
+
+    public boolean isSendType() {
+        return TRANSFER_TYPE_SEND.equals(this.transferType);
+    }
+    public void approve() {
+        if (isPending()) {
+            // only pending transfers can be approved
+            transferStatus = TRANSFER_STATUS_APPROVED;
+        } else {
+            throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Cannot change transferStatus from "+transferStatus+" to "+TRANSFER_STATUS_APPROVED);
+        }
+    }
+
+    public void reject() {
+        if (isPending()) {
+            // only pending transfers can be rejected
+            transferStatus = TRANSFER_STATUS_REJECTED;
+        } else {
+            throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Cannot change transferStatus from "+transferStatus+" to "+TRANSFER_STATUS_REJECTED);
+        }
+    }
+
+    private void validateTransferType() {
+        if (!(TRANSFER_TYPE_REQUEST.equals(transferType) || TRANSFER_TYPE_SEND.equals(transferType))) {
+            throw new IllegalArgumentException(transferType + " is not a valid transferType");
+        }
+    }
+
+    private void validateTransferStatus() {
+        if (!(TRANSFER_STATUS_APPROVED.equals(transferStatus) || TRANSFER_STATUS_PENDING.equals(transferStatus) || TRANSFER_STATUS_REJECTED.equals(transferStatus))) {
+            throw new IllegalArgumentException(transferStatus + " is not a valid transferStatus");
+        }
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Transfer transfer = (Transfer) o;
+        return Objects.equals(transferId, transfer.transferId) &&
+                Objects.equals(transferType, transfer.transferType) &&
+                Objects.equals(transferStatus, transfer.transferStatus) &&
+                Objects.equals(userFrom, transfer.userFrom) &&
+                Objects.equals(userTo, transfer.userTo) &&
+                Objects.equals(amount, transfer.amount);
+    }
+    @Override
+    public int hashCode() {
+        return Objects.hash(transferId, transferType, transferStatus, userFrom, userTo, amount);
     }
 
     @Override
     public String toString() {
         return "Transfer{" +
                 "transferId=" + transferId +
-                ", transferType='" + transferType + '\'' +
-                ", status='" + status + '\'' +
-                ", fromAccountId=" + fromAccountId +
-                ", toAccountId=" + toAccountId +
+                ", transferType=" + transferType +
+                ", transferStatus=" + transferStatus +
+                ", userFrom=" + userFrom +
+                ", userTo=" + userTo +
                 ", amount=" + amount +
                 '}';
+    }
+
+    private static String getInitialStatusForTransferType(String transferType) {
+        String transferStatus = null;
+        if (Transfer.TRANSFER_TYPE_REQUEST.equals(transferType)) {
+            transferStatus = Transfer.TRANSFER_STATUS_PENDING;
+        } else if (Transfer.TRANSFER_TYPE_SEND.equals(transferType)) {
+            transferStatus = Transfer.TRANSFER_STATUS_APPROVED;
+        }
+        return transferStatus;
     }
 }

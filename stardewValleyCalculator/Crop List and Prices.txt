@@ -1,0 +1,728 @@
+Carrot
+
+Seed spots between Winter 21 and Spring 23 (these look similar to Artifact spots)
+
+Raccoon Wife: 1 Maple Seed
+
+3 days
+
+Normal : 35g
+
+Silver : 43g
+
+Gold : 52g
+
+Iridium : 70g
+
+Parsnip
+
+Pierre's Store: 2g
+
+JojaMart: 25g
+
+4 days
+
+Normal : 35g
+
+Silver : 43g
+
+Gold : 52g
+
+Iridium : 70g
+
+Green Bean
+
+Pierre's Store: 60g
+
+JojaMart: 75g
+
+3 days
+
+Normal : 40g
+
+Silver : 50g
+
+Gold : 60g
+
+Iridium : 80g
+
+Cauliflower
+
+Pierre's Store: 80g
+
+JojaMart: 100g
+
+12 days
+
+Normal : 175g
+
+Silver : 218g
+
+Gold : 262g
+
+Iridium : 350g
+
+Potato
+
+Pierre's Store: 50g
+
+JojaMart: 62g
+
+6 days
+
+Normal : 80g
+
+Silver : 100g
+
+Gold : 120g
+
+Iridium : 160g
+
+Kale
+
+Pierre's Store: 70g
+
+JojaMart: 87g
+
+6 days
+
+Normal : 110g
+
+Silver : 137g
+
+Gold : 165g
+
+Iridium : 220g
+
+Tulip
+
+Pierre's Store: 20g
+
+JojaMart: 25g
+
+6 days
+
+Normal : 30g
+
+Silver : 37g
+
+Gold : 45g
+
+Iridium : 60g
+
+Blue Jazz
+
+Pierre's Store: 30g
+
+JojaMart: 37g
+
+7 days
+
+Normal : 50g
+
+Silver : 62g
+
+Gold : 75g
+
+Iridium : 100g
+
+Strawberry
+
+Pierre's market stall during the Egg Festival: 10g
+
+8 days
+
+Normal : 120g
+
+Silver : 150g
+
+Gold : 180g
+
+Iridium : 240g
+
+Rhubarb
+
+Sandy's store in the Desert: 100g
+
+13 days
+
+Normal : 220g
+
+Silver : 275g
+
+Gold : 330g
+
+Iridium : 440g
+
+Garlic
+
+Pierre's store: 40g
+
+4 days
+
+Normal : 600g
+
+Silver : 75g
+
+Gold : 90g
+
+Iridium : 120g
+
+Coffee Bean
+
+Traveling Cart: 2,500g
+
+Dust Sprites in the Mines.
+
+10 days, regrows every 2 days
+
+Normal : 15g
+
+Silver : 18g
+
+Gold : 22g
+
+Iridium : 30g
+
+Unmilled Rice
+
+Pierre's store: 40g
+
+Bugs in the Mines
+
+8 days normally
+
+6 days if planted next to water
+
+Normal : 30g
+
+Silver : 37g
+
+Gold : 45g
+
+Iridium : 60g
+____________________________
+
+SUMMER 
+
+mmer Squash
+
+Seed spots between Spring 24 and Summer 20 (these look similar to Artifact spots)
+
+Raccoon Wife: 15 Sap
+
+6 days, regrows every 3
+
+Normal : 45g
+
+Silver : 56g
+
+Gold : 67g
+
+Iridium : 90g
+
+Wheat
+
+Pierre's Store: 10g
+
+JojaMart: 12g
+
+4 days
+
+Normal : 25g
+
+Silver : 31g
+
+Gold : 37g
+
+Iridium : 50g
+
+Corn (This can also be planted in the Fall)
+
+Pierre's Store: 150g
+
+JojaMart: 187g
+
+14 days, regrows every 4 days
+
+Normal : 50g
+
+Silver : 62g
+
+Gold : 75g
+
+Iridium : 100g
+
+Blueberry
+
+Pierre's store: 80g
+
+13 days, regrows every 4 days
+
+Normal : 50g
+
+Silver : 62g
+
+Gold : 75g
+
+Iridium : 100g
+
+Hot Pepper
+
+Pierre's Store: 40g
+
+JojaMart: 50g
+
+5 days, regrows every 3 days
+
+Normal : 40g
+
+Silver : 50g
+
+Gold : 60g
+
+Iridium : 80g
+
+Hops
+
+Pierre's Store: 60g
+
+JojaMart: 75g
+
+11 days, regrows every other day
+
+Normal : 25g
+
+Silver : 311g
+
+Gold : 37g
+
+Iridium : 50g
+
+Tomato
+
+Pierre's Store: 50g
+
+JojaMart: 62g
+
+11 days, regrows every 4 days
+
+Normal : 60g
+
+Silver : 75g
+
+Gold : 90g
+
+Iridium : 120g
+
+Melon
+
+Pierre's Store: 80g
+
+JojaMart: 100g
+
+12 days
+
+Normal : 250g
+
+Silver : 312g
+
+Gold : 375g
+
+Iridium : 500g
+
+Radish
+
+Pierre's Store: 40g
+
+JojaMart: 50g
+
+6 days
+
+Normal : 90g
+
+Silver : 112g
+
+Gold : 135g
+
+Iridium : 180g
+
+Red Cabbage
+
+Pierre's store: 100g
+
+9 days
+
+Normal : 260g
+
+Silver : 325g
+
+Gold : 390g
+
+Iridium : 520g
+
+Sunflower
+
+Pierre's Store: 200g
+
+JojaMart: 125g
+
+8 days
+
+Normal : 80g
+
+Silver : 100g
+
+Gold : 125g
+
+Iridium : 160g
+
+Starfruit
+
+Sandy's store in the Desert: 400g
+
+13 days
+
+Normal : 750g
+
+Silver : 937g
+
+Gold : 1,125g
+
+Iridium : 1,500g
+
+Poppy
+
+Pierre's Store: 100g
+
+JojaMart: 125g
+
+7 days
+
+Normal : 140g
+
+Silver : 175g
+
+Gold : 210g
+
+Iridium : 280g
+
+Summer Spangle
+
+Pierre's Store: 50g
+
+JojaMart: 62g
+
+8 days
+
+Normal : 90g
+
+Silver : 112g
+
+Gold : 135g
+
+Iridium : 180g
+______________________________________________________
+
+AUTUMN
+
+
+Broccoli
+
+Seed spots between Summer 21 and Fall 20 (these look similar to Artifact spots)
+
+Raccoon Wife: 5 Moss
+
+8 days, regrows every 4 days
+
+Normal : 70g
+
+Silver : 87g
+
+Gold : 105g
+
+Iridium : 140g
+
+Yam
+
+Pierre's Store: 60g
+
+JojaMart: 75g
+
+10 days
+
+Normal :160g
+
+Silver : 200g
+
+Gold : 240g
+
+Iridium : 320g
+
+Beet
+
+Sandy's store in the Desert: 20g
+
+6 days
+
+Normal :100g
+
+Silver : 125g
+
+Gold : 250g
+
+Iridium : 200g
+
+Pumpkin
+
+Pierre's Store: 100g
+
+JojaMart: 125g
+
+13 days
+
+Normal : 320g
+
+Silver : 400g
+
+Gold : 480g
+
+Iridium : 640g
+
+Bok Choy
+
+Pierre's Store: 50g
+
+JojaMart: 62g
+
+4 days
+
+Normal : 80g
+
+Silver : 200g
+
+Gold : 120g
+
+Iridium : 160g
+
+Eggplant
+
+Pierre's Store: 20g
+
+JojaMart: 25g
+
+5 days, regrows every 5 days
+
+Normal : 60g
+
+Silver : 75g
+
+Gold : 90g
+
+Iridium : 120g
+
+Artichoke
+
+Pierre's store: 30g
+
+8 days
+
+Normal : 160g
+
+Silver : 200g
+
+Gold : 240g
+
+Iridium : 320g
+
+Cranberry
+
+Pierre's Store: 240g
+
+JojaMart: 300g
+
+7 days, regrows every 5 days
+
+Normal : 75g
+
+Silver : 93g
+
+Gold : 112g
+
+Iridium : 150g
+
+Amaranth
+
+Pierre's Store: 70g
+
+JojaMart: 87g
+
+7 days
+
+Normal : 150g
+
+Silver : 187g
+
+Gold : 225g
+
+Iridium : 300g
+
+Grape
+
+Pierre's Store: 60g
+
+JojaMart: 75g
+
+10 days, regrows every 3 days
+
+Normal : 80g
+
+Silver : 100g
+
+Gold : 120g
+
+Iridium : 160g
+
+Fairy Rose
+
+Pierre's Store: 200g
+
+JojaMart: 250g
+
+12 days
+
+Normal : 290g
+
+Silver : 362g
+
+Gold : 435g
+
+Iridium : 580g
+
+_______________________________
+
+SPECIAL CROPS
+
+Powdermelon
+
+Seed spots between Fall 21 and Winter 20 (these look similar to Artifact spots)
+
+Raccoon Wife: 2 Acorns
+
+7 days
+
+Winter
+
+Normal : 60g
+
+Silver : 75g
+
+Gold : 90g
+
+Iridium : 120g
+
+Pineapple
+
+Island Trader on Ginger Island, traded for a Magma Cap
+
+14 days, regrows every 7 days
+
+Summer
+
+Normal : 300g
+
+Silver : 375g
+
+Gold : 450g
+
+Iridium : 600g
+
+Tea Leaves
+
+Crafted with a recipe received from Caroline's 2-Heart event
+
+Bought from the Traveling Cart
+
+20 days, regrows every other day
+
+Every season(cannot be harvested in Winter)
+
+Always 50 gold
+
+Sweet Gem Berry
+
+Purchased from the Traveling Cart for 1,000g
+
+Grows from a Rare Seed
+
+24 days
+
+Fall
+
+Normal : 3,000g
+
+Silver : 3,750g
+
+Gold : 4,500g
+
+Iridium : 6,000g
+
+Ancient Fruit
+
+Crafted with a recipe received from Gunther after donating an Ancient Seed artifact
+
+Bought from the Traveling Cart for up to 1,000g
+
+28 days, regrows every 7 days
+
+All seasons except Winter
+
+Normal : 550g
+
+Silver : 687g
+
+Gold : 825g
+
+Iridium : 1,100g
+
+Cactus Fruit
+
+Sandy's store in the Desert: 150g
+
+12 days, regrows every 3 days
+
+Only grows in the Greenhouse or in a garden pot inside
+
+Normal : 75g
+
+Silver : 93g
+
+Gold : 112g
+
+Iridium : 150g
+
+Fiber
+
+Crafted with a recipe given by Linus after doing his special order quest Community Cleanup
+
+7 days
+
+Every season
+
+Always 1 gold
+
+Taro Root
+
+Island Trader on Ginger Island , traded for two bone fragments
+
+10 days normally, 7 days if grown nearby water
+
+Summer
+
+Normal : 1000g
+
+Silver : 125g
+
+Gold : 150g
+
+Iridium : 200g
